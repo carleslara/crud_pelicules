@@ -11,7 +11,7 @@
 @endif
 
 <div class="d-flex justify-content-between align-items-center mb-3">
-  <h2>Bon dia</h2>
+  <h2>Pel·lícules</h2>
   <button id="btnNew" class="btn btn-primary">Afegir Pel·lícula</button>
 </div>
 
