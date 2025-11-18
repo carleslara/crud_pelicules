@@ -16,7 +16,7 @@
       <ul class="navbar-nav ms-auto">
         @auth
           <li class="nav-item">
-            <span class="nav-link">Hola, {{ auth()->user()->name }}</span>
+            <span class="nav-link">{{ auth()->user()->name }}</span>
           </li>
           <li>&nbsp&nbsp&nbsp&nbsp&nbsp</li>
           <li class="nav-item">
