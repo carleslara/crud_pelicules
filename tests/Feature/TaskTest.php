@@ -21,6 +21,8 @@ class TaskTest extends TestCase
         // Laravel normalment redirigeix al login (302)
         $response->assertStatus(302);
         $response->assertRedirect('/login');
+
+        //$this->fail('Prova intencional: fallo el test.');
     }
 
     /**
