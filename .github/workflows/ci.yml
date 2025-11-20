@@ -72,7 +72,7 @@ jobs:
             } else {
               core.info(`Attempting to merge branch '${branch}' into 'main'...`);
               try {
-                const result = await github.repos.merge({
+                const result = await github.rest.repos.merge({
                   owner: context.repo.owner,
                   repo: context.repo.repo,
                   base: 'main',
