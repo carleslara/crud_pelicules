@@ -22,7 +22,7 @@ class TaskTest extends TestCase
         $response->assertStatus(302);
         $response->assertRedirect('/login');
 
-        $this->fail('Prova intencional: fallo el test.');
+        //$this->fail('Prova intencional: fallo el test.');
     }
 
     /**
