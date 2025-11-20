@@ -11,7 +11,7 @@
 @endif
 
 <div class="d-flex justify-content-between align-items-center mb-3">
-  <h2>Bones, {{ auth()->user()->name }}, que tal?</h2>
+  <h2>Bones, {{ auth()->user()->name }}</h2>
   <button id="btnNew" class="btn btn-primary">Afegir Pel·lícula</button>
 </div>
 
